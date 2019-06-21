@@ -11,6 +11,14 @@ export default class Menu extends React.Component {
       {name: 'Demo', dataId: 'demo', icon: 'icon-menu fas fa-laptop-code'},
       {name: 'contact', dataId: 'contact', icon: 'icon-menu fas fa-at'}
     ]
+    this.state = {currentMenu: 'home'}
+  }
+
+  handleClick(dataId){
+    this.setState({
+      currentMenu: dataId
+    });
+    console.log(this)
   }
 
   render(){
@@ -18,11 +26,14 @@ export default class Menu extends React.Component {
     return (
       <menu id="menu">
         {this.entries.map((entry) =>(
-          <div class="panel-button text-center" id={entry.dataId}>
+          <div className="panel-button text-center"
+            id={entry.dataId}
+            key={entry.dataId}
+            onClick={this.handleClick.bind(this, entry.dataId)}>
             <div>
-              <i class={entry.icon}></i>
+              <i className={entry.icon}></i>
             </div>
-            <div class="font-small">{entry.name}</div>
+            <div className="font-small">{entry.name}</div>
           </div>
         ))}
       </menu>
