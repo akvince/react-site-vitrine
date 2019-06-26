@@ -16,7 +16,7 @@ export default class AboutMe extends React.Component {
   render(){
 
     return (
-      <div class="AboutMe"></div>
+      <div class="AboutMe">about me</div>
     );
   }
 

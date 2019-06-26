@@ -28,6 +28,7 @@ export default class App extends React.Component {
         </header>
         <Menu/>
         <section>
+        <AboutMe/>
           hello {this.handleState()}
         </section>
       </div>
