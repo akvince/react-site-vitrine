@@ -2,6 +2,26 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import AboutMe from './component/aboutMe/AboutMe'
+
+export default class App extends React.Component {
+  constructor(props){
+    super(props);
+    console.log(props);
+  }
+
+  render(){
+
+    return (
+      <div className="App">
+        <header className="App-header">
+        </header>
+        <section>
+        </section>
+      </div>
+    );
+  }
+
 function App() {
   return (
     <div className="App">
