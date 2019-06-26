@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import Menu from './component/menu/Menu'
 
+import AboutMe from './component/aboutMe/AboutMe'
+
 export default class App extends React.Component {
   constructor(props){
     super(props);
