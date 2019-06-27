@@ -2,8 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Menu from './component/menu/Menu'
-
 import AboutMe from './component/aboutMe/AboutMe'
+import Skill from './component/skill/skill'
 
 export default class App extends React.Component {
   constructor(props){
@@ -27,8 +27,7 @@ export default class App extends React.Component {
         <header className="App-header">
         </header>
         <Menu/>
-        <section>
-        <AboutMe/>
+        <section id="section">
           hello {this.handleState()}
         </section>
       </div>
