@@ -6,13 +6,6 @@ export default class AboutMe extends React.Component {
     super(props);
   }
 
-  handleClick(dataId){
-    this.setState({
-      currentMenu: dataId
-    });
-    console.log(this)
-  }
-
   render(){
 
     return (

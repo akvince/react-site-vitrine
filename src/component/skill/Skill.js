@@ -1,5 +1,5 @@
 import React from 'react';
-import './skill.css';
+import './Skill.css';
 
 export default class Skill extends React.Component {
   constructor(props){
@@ -9,7 +9,7 @@ export default class Skill extends React.Component {
   render(){
 
     return (
-      <div class="AboutMe">skill me</div>
+      <div class="Skill">skill me</div>
     );
   }
 
