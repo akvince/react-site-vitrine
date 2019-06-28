@@ -68,11 +68,3 @@ footer{
 .flex-middle{
   align-items: center;
 }
-/** panel **/
-.panel.active{
-  display: block;
-}
-.panel-button.active{
-  font-weight: bold;
-  color: lightgray;
-}

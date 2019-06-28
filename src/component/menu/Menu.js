@@ -20,15 +20,6 @@ export default class Menu extends React.Component {
       {name: 'Demo', dataId: 'demo', icon: 'icon-menu fas fa-laptop-code', href: 'demo'},
       {name: 'contact', dataId: 'contact', icon: 'icon-menu fas fa-at', href: 'contact'}
     ]
-    this.state = {currentMenu: 'home'}
-
-  }
-
-  handleClick(dataId){
-    this.setState({
-      currentMenu: dataId
-    });
-    console.log(this)
   }
 
   render(){
