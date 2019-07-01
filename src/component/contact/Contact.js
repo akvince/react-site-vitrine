@@ -24,13 +24,13 @@ export default class Contact extends React.Component {
             <div>Mail</div>
           </div>
           <div class="linkedin">
-            <a rel="noreferrer" href="https://www.linkedin.com/in/deflandre-vincent-frontend/" target="_blank">
+            <a rel="noopener noreferrer" href="https://www.linkedin.com/in/deflandre-vincent-frontend/" target="_blank">
               <i class="fab fa-linkedin-in badge"></i>
               <div>LinkedIn</div>
             </a>
           </div>
           <div class="twitter text-center">
-            <a rel="noreferrer" href="https://twitter.com/kiravince?lang=fr" target="_blank">
+            <a rel="noopener noreferrer" href="https://twitter.com/kiravince?lang=fr" target="_blank">
               <i class="fab fa-twitter badge"></i>
               <div>Twitter</div>
             </a>

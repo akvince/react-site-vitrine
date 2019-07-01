@@ -6,7 +6,8 @@ import Skill from '../skill/Skill';
 import Project from '../project/Project';
 import Contact from '../contact/Contact';
 import Demo from '../demo/Demo';
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
+import { Route, Link, NavLink, BrowserRouter as Router } from 'react-router-dom';
+import Switch from 'react-router-dom/Switch';
 
 
 
@@ -26,14 +27,16 @@ export default class Menu extends React.Component {
 
     return (
       <Router>
-        <Route exact path="/" component={AboutMe} />
-        <Route path="/skill" component={Skill} />
-        <Route path="/project" component={Project} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/demo" component={Demo} />
+        <Switch>
+          <Route exact path="/" component={AboutMe} />
+          <Route path="/skill" component={Skill} />
+          <Route path="/project" component={Project} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/demo" component={Demo} />
+        </Switch>
         <menu id="menu">
           {this.entries.map((entry) =>(
-            <Link className="panel-button text-center"
+            <NavLink className="panel-button text-center"
               to={entry.href}
               id={entry.dataId}
               key={entry.dataId}>
@@ -41,7 +44,7 @@ export default class Menu extends React.Component {
                 <i className={entry.icon}></i>
               </div>
               <div className="font-small">{entry.name}</div>
-            </Link>
+            </NavLink>
           ))}
         </menu>
       </Router>
