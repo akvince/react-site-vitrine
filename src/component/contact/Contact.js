@@ -20,21 +20,21 @@ export default class Contact extends React.Component {
         <h2 className="text-center">Contactez-moi</h2>
         <div className="flex flex-around flex-middle font-large text-center">
           <div className="linkedin">
-            <i className="far fa-envelope badge"></i>
+            <i className="far fa-envelope badge badge-no-flip"></i>
             <div>Mail</div>
           </div>
-          <div className="linkedin">
-            <a rel="noopener noreferrer" href="https://www.linkedin.com/in/deflandre-vincent-frontend/" target="_blank">
-              <i className="fab fa-linkedin-in badge"></i>
-              <div>LinkedIn</div>
-            </a>
-          </div>
-          <div className="twitter text-center">
-            <a rel="noopener noreferrer" href="https://twitter.com/kiravince?lang=fr" target="_blank">
-              <i className="fab fa-twitter badge"></i>
-              <div>Twitter</div>
-            </a>
-          </div>
+          <a rel="noopener noreferrer" href="https://www.linkedin.com/in/deflandre-vincent-frontend/" target="_blank">
+            <div className="linkedin">
+                <i className="fab fa-linkedin-in badge badge-no-flip"></i>
+                <div>LinkedIn</div>
+            </div>
+          </a>
+          <a rel="noopener noreferrer" href="https://twitter.com/kiravince?lang=fr" target="_blank">
+            <div className="twitter text-center">
+                <i className="fab fa-twitter badge badge-no-flip"></i>
+                <div>Twitter</div>
+            </div>
+          </a>
         </div>
       </div>
     );

@@ -81,7 +81,11 @@ footer{
   color: #fff;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
-
+.badge-no-flip{
+  background-color: #293133;
+  vertical-align: middle;
+  margin-top: 13px;
+}
 /* This container is needed to position the front and back side */
 .badge-inner {
   position: relative;
