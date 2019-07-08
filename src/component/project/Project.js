@@ -9,7 +9,7 @@ export default class Project extends React.Component {
   render(){
 
     return (
-      <div class="Project">Project me</div>
+      <div className="Project">Project me</div>
     );
   }
 

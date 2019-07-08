@@ -7,15 +7,12 @@ import Project from '../project/Project';
 import Contact from '../contact/Contact';
 import Demo from '../demo/Demo';
 import { Route, Link, NavLink, BrowserRouter as Router } from 'react-router-dom';
-import Switch from 'react-router-dom/Switch';
-
-
 
 export default class Menu extends React.Component {
   constructor(props){
     super(props);
     this.entries = [
-      {name: 'acceuil', dataId: 'home', icon: 'icon-menu fas fa-home', href: '/'},
+      {name: 'accueil', dataId: 'home', icon: 'icon-menu fas fa-home', href: '/'},
       {name: 'compétences', dataId: 'skill', icon: 'icon-menu fas fa-wrench', href: 'skill'},
       {name: 'Projets', dataId: 'project', icon: 'icon-menu fas fa-code-branch', href: 'project'},
       {name: 'Demo', dataId: 'demo', icon: 'icon-menu fas fa-laptop-code', href: 'demo'},
@@ -27,16 +24,14 @@ export default class Menu extends React.Component {
 
     return (
       <Router>
-        <Switch>
-          <Route exact path="/" component={AboutMe} />
-          <Route path="/skill" component={Skill} />
-          <Route path="/project" component={Project} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/demo" component={Demo} />
-        </Switch>
+        <Route exact path="/" component={AboutMe} />
+        <Route path="/skill" component={Skill} />
+        <Route path="/project" component={Project} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/demo" component={Demo} />
         <menu id="menu">
           {this.entries.map((entry) =>(
-            <NavLink className="panel-button text-center"
+            <Link className="panel-button text-center"
               to={entry.href}
               id={entry.dataId}
               key={entry.dataId}>
@@ -44,7 +39,7 @@ export default class Menu extends React.Component {
                 <i className={entry.icon}></i>
               </div>
               <div className="font-small">{entry.name}</div>
-            </NavLink>
+            </Link>
           ))}
         </menu>
       </Router>

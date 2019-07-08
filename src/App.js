@@ -1,13 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Menu from './component/menu/Menu';
 
 export default class App extends React.Component {
   constructor(props){
     super(props);
-  }
 
+  }
   render(){
 
     return (

@@ -9,17 +9,17 @@ export default class Skill extends React.Component {
   render(){
 
     return (
-      <div id="skill" class="panel part2">
-        <h2 class="text-center">Compétences</h2>
-        <div class="flex flex-around flex-middle font-large margin-b badge-skill">
-          <div class="html text-center">
-            <div class="badge">
-              <div class="badge-inner">
-                <div class="badge-front">
-                  <i class="fab fa-html5 badge"></i>
+      <div id="skill" className="panel part2">
+        <h2 className="text-center">Compétences</h2>
+        <div className="flex flex-around flex-middle font-large margin-b badge-skill">
+          <div className="html text-center">
+            <div className="badge">
+              <div className="badge-inner">
+                <div className="badge-front">
+                  <i className="fab fa-html5 badge"></i>
                 </div>
-                <div class="badge-back">
-                  <div class="badge">
+                <div className="badge-back">
+                  <div className="badge">
                     85%
                   </div>
                 </div>
@@ -27,14 +27,14 @@ export default class Skill extends React.Component {
             </div>
             <div>HTML</div>
           </div>
-          <div class="css text-center">
-            <div class="badge">
-              <div class="badge-inner">
-                <div class="badge-front">
-                  <i class="fab fa-css3-alt badge"></i>
+          <div className="css text-center">
+            <div className="badge">
+              <div className="badge-inner">
+                <div className="badge-front">
+                  <i className="fab fa-css3-alt badge"></i>
                 </div>
-                <div class="badge-back">
-                  <div class="badge">
+                <div className="badge-back">
+                  <div className="badge">
                     85%
                   </div>
                 </div>
@@ -42,14 +42,14 @@ export default class Skill extends React.Component {
             </div>
             <div>CSS</div>
           </div>
-          <div class="sass text-center">
-            <div class="badge">
-              <div class="badge-inner">
-                <div class="badge-front">
-                <i class="fab fa-sass badge"></i>
+          <div className="sass text-center">
+            <div className="badge">
+              <div className="badge-inner">
+                <div className="badge-front">
+                <i className="fab fa-sass badge"></i>
                 </div>
-                <div class="badge-back">
-                  <div class="badge">
+                <div className="badge-back">
+                  <div className="badge">
                     60%
                   </div>
                 </div>
@@ -57,14 +57,14 @@ export default class Skill extends React.Component {
             </div>
             <div>Sass</div>
           </div>
-          <div class="javascript text-center">
-            <div class="badge">
-              <div class="badge-inner">
-                <div class="badge-front">
-                  <i class="fab fa-js badge"></i>
+          <div className="javascript text-center">
+            <div className="badge">
+              <div className="badge-inner">
+                <div className="badge-front">
+                  <i className="fab fa-js badge"></i>
                 </div>
-                <div class="badge-back">
-                  <div class="badge">
+                <div className="badge-back">
+                  <div className="badge">
                     70%
                   </div>
                 </div>
@@ -73,15 +73,15 @@ export default class Skill extends React.Component {
             <div>Javascript</div>
           </div>
         </div>
-        <div class="flex flex-around flex-middle font-large badge-skill">
-          <div class="gulp text-center">
-            <div class="badge">
-              <div class="badge-inner">
-                <div class="badge-front">
-                  <i class="fab fa-gulp badge"></i>
+        <div className="flex flex-around flex-middle font-large badge-skill">
+          <div className="gulp text-center">
+            <div className="badge">
+              <div className="badge-inner">
+                <div className="badge-front">
+                  <i className="fab fa-gulp badge"></i>
                 </div>
-                <div class="badge-back">
-                  <div class="badge">
+                <div className="badge-back">
+                  <div className="badge">
                     65%
                   </div>
                 </div>
@@ -89,14 +89,14 @@ export default class Skill extends React.Component {
             </div>
             <div>Gulp</div>
           </div>
-          <div class="ubntu text-center">
-            <div class="badge">
-              <div class="badge-inner">
-                <div class="badge-front">
-                  <i class="fab fa-linux badge"></i>
+          <div className="ubntu text-center">
+            <div className="badge">
+              <div className="badge-inner">
+                <div className="badge-front">
+                  <i className="fab fa-linux badge"></i>
                 </div>
-                <div class="badge-back">
-                  <div class="badge">
+                <div className="badge-back">
+                  <div className="badge">
                     70%
                   </div>
                 </div>
@@ -106,47 +106,47 @@ export default class Skill extends React.Component {
           </div>
         </div>
 
-        <h2 class="text-center">En dehors du travail</h2>
-        <div class="flex flex-around flex-middle font-large">
-          <div class="muscu text-center">
-            <div class="badge">
-              <div class="badge-inner">
-                <div class="badge-front">
-                  <i class="fas fa-dumbbell badge"></i>
+        <h2 className="text-center">En dehors du travail</h2>
+        <div className="flex flex-around flex-middle font-large">
+          <div className="muscu text-center">
+            <div className="badge">
+              <div className="badge-inner">
+                <div className="badge-front">
+                  <i className="fas fa-dumbbell badge"></i>
                 </div>
-                <div class="badge-back">
-                  <div class="badge">
-                    <i class="fas fa-dumbbell badge"></i>
+                <div className="badge-back">
+                  <div className="badge">
+                    <i className="fas fa-dumbbell badge"></i>
                   </div>
                 </div>
               </div>
             </div>
             <div>Musculation</div>
           </div>
-          <div class="game text-center">
-            <div class="badge">
-              <div class="badge-inner">
-                <div class="badge-front">
-                  <i class="fas fa-gamepad badge"></i>
+          <div className="game text-center">
+            <div className="badge">
+              <div className="badge-inner">
+                <div className="badge-front">
+                  <i className="fas fa-gamepad badge"></i>
                 </div>
-                <div class="badge-back">
-                  <div class="badge">
-                    <i class="fas fa-gamepad badge"></i>
+                <div className="badge-back">
+                  <div className="badge">
+                    <i className="fas fa-gamepad badge"></i>
                   </div>
                 </div>
               </div>
             </div>
             <div>Jeux vidéo</div>
           </div>
-          <div class="magic text-center">
-            <div class="badge">
-              <div class="badge-inner">
-                <div class="badge-front">
-                  <i class="fab fa-wizards-of-the-coast badge"></i>
+          <div className="magic text-center">
+            <div className="badge">
+              <div className="badge-inner">
+                <div className="badge-front">
+                  <i className="fab fa-wizards-of-the-coast badge"></i>
                 </div>
-                <div class="badge-back">
-                  <div class="badge">
-                    <i class="fab fa-wizards-of-the-coast badge"></i>
+                <div className="badge-back">
+                  <div className="badge">
+                    <i className="fab fa-wizards-of-the-coast badge"></i>
                   </div>
                 </div>
               </div>
