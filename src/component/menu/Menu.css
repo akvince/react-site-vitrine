@@ -26,6 +26,9 @@ menu{
 .panel-button{
   color:#fff;
 }
+.panel-button.active{
+  color: lightgray;
+}
 /** menu **/
 .icon-menu{
   font-size: 20px;

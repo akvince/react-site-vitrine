@@ -1,12 +1,8 @@
 import React from 'react';
 import './App.css';
-import Menu from './component/menu/Menu';
+import {Menu} from './component/menu/Menu';
 
 export default class App extends React.Component {
-  constructor(props){
-    super(props);
-
-  }
   render(){
 
     return (
