@@ -1,6 +1,6 @@
 import React from 'react';
-import './Skill.css';
-import {UiBadge} from '../uiBadge/UiBadge';
+import './PageSkill.css';
+import {UiBadge} from './UiBadge';
 
 export default class Skill extends React.Component {
   constructor(props){

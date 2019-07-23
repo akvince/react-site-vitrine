@@ -1,5 +1,5 @@
 import React from 'react';
-import './AboutMe.css';
+import './PageAboutMe.css';
 
 export default class AboutMe extends React.Component {
   constructor(props){

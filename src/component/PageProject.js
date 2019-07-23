@@ -1,5 +1,5 @@
 import React from 'react';
-import './Project.css';
+import './PageProject.css';
 
 export default class Project extends React.Component {
   constructor(props){

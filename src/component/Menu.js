@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
 import './Menu.css';
-import AboutMe from '../aboutMe/AboutMe';
-import Skill from '../skill/Skill';
-import Project from '../project/Project';
-import Contact from '../contact/Contact';
-import Demo from '../demo/Demo';
+import AboutMe from './PageAboutMe';
+import Skill from './PageSkill';
+import Project from './PageProject';
+import Contact from './PageContact';
+import Demo from './PageDemo';
 import { Route, Link, NavLink, BrowserRouter as Router } from 'react-router-dom';
 
 export const Menu = ()  => {

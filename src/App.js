@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {Menu} from './component/menu/Menu';
+import {Menu} from './component/Menu';
 
 export default class App extends React.Component {
   render(){
