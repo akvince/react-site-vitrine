@@ -28,7 +28,7 @@ export const Menu = ()  => {
       <Route path="/demo" component={Demo} />
       <menu id="menu">
         {entries.map((entry) =>(
-          <Link className={"panel-button text-center" + (active !== entry.dataId ? "" : " active")}
+          <Link className={"panel-button text-center" + (active === entry.dataId ? " active" : "")}
             onClick={() => setActive(entry.dataId)}
             to={entry.href}
             id={entry.dataId}
